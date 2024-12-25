@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": null,
+            "title": "Cricket icon takes horror turn after surgery",
+            "description": "England legend Sir Geoffrey Boycott has been rushed to hospital with pneumonia after suffering a setback in his recovery from cancer surgery.",
+            "url": "https://www.news.com.au/sport/cricket/get-well-soon-cricket-icon-sir-geoffrey-boycott-unable-to-eat-or-drink-after-horror-turn/news-story/313a841dc6f5ca1672119ec3af99a740",
+            "urlToImage": "https://content.api.news/v3/images/bin/e43f9cd46fb40a26f74f52984c22aa34",
+            "publishedAt": "2024-07-22T09:06:00Z",
+            "content": "England legend Sir Geoffrey Boycott has been rushed to hospital with pneumonia after suffering a setback in his recovery from cancer surgery.\r\nThe national cricket icon, 83, went under the knife this… [+3015 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Indianapolis Star"
+            },
+            "author": "Zion Brown",
+            "title": "'That's (expletive) (expletive)': Blaney doesn't know who to blame for Brickyard 400 loss - IndyStar",
+            "description": "Hendrick Motorsports' Ryan Blaney unleashes 8 expletives as he falls behind Kyle Larson on restart, loses Brickyard 400",
+            "url": "https://www.indystar.com/story/sports/motor/2024/07/21/hendrick-motorsports-ryan-blaney-angry-with-ending-of-brickyard-400/74493479007/",
+            "urlToImage": "https://www.indystar.com/gcdn/authoring/authoring-images/2024/07/21/PIND/74493234007-072124-brickyard-400-0054.jpg?crop=4491,2527,x0,y505&width=3200&height=1801&format=pjpg&auto=webp",
+            "publishedAt": "2024-07-22T00:31:23Z",
+            "content": "INDIANAPOLIS Ryan Blaney doesnt know who to blame for what happened. Hendrick Motorsports leadership simply noted no rules were broken.\r\nWhen Sundays Brickyard 400 entered overtime, Blaney was on the… [+4145 chars]"
+        }
+    ]
+}
