@@ -1,34 +1,64 @@
-<html>
+<!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gaze Detection and Blink Counter</title>
+   <style>
+     canvas {
+       border: 1px solid black;
+       display: none;
+       margin: auto;
+     }
+     #controls {
+       text-align: center;
+       margin-top: 10px;
+     }
+   </style>
+ </head>
+ <body>
+   <video id="webcam" autoplay muted playsinline></video>
+   <div id="controls">
+     <p id="gaze-direction">Gaze Direction: </p>
+     <p id="blink-count">Blink Count: 0</p>
+     <div id="face-movement">Face Movement: </div>
+     <button id="webcamButton" disabled>Enable Webcam</button>
+   </div>
+   <canvas id="output_canvas"></canvas>
+   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3"></script>
+   <script type="module" src="./Script1.js"></script>
+ </body>
+ </html>
+  -->
+
+  <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Face Landmarker</title>
-
-  <link href="./Index.css" rel="stylesheet">
-  <!-- <script src="./Script.js"></script> -->
-  <script type="module" src="script.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaze Detection and Blink Counter</title>
+  <style>
+    canvas {
+      border: 1px solid black;
+      display: none;
+      margin: auto;
+    }
+    #controls {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Face landmark detection using the MediaPipe FaceLandmarker task</h1>
-    <h2>Webcam continuous face landmarks detection</h2>
-    <p>Hold your face in front of your webcam to get real-time face landmarker detection.</br>Click <b>enable webcam</b> below and grant access to the webcam if prompted.</p>
-
-    <div id="liveView" class="videoView">
-      <button id="webcamButton" class="mdc-button mdc-button--raised">
-        <span class="mdc-button__ripple"></span>
-        <span class="mdc-button__label">ENABLE WEBCAM</span>
-      </button>
-      <div style="position: relative;">
-        <video id="webcam" style="position: abso" autoplay playsinline></video>
-        <canvas class="output_canvas" id="output_canvas" style="position: absolute; left: 0px; top: 0px;"></canvas>
-      </div>
-    </div>
-    <div class="blend-shapes">
-      <ul class="blend-shapes-list" id="video-blend-shapes"></ul>
-    </div>
-  </section>
+  <video id="webcam" autoplay muted playsinline style="width: 100%; max-width: 640px; display: block;"></video>
+  <div id="controls">
+    <p id="gaze-direction">Gaze Direction: </p>
+    <p id="blink-count">Blink Count: 0</p>
+    <div id="face-movement">Face Movement: </div>
+    <div id="movement-info"></div>
+    <button id="webcamButton" disabled>Enable Webcam</button>
+  </div>
+  <canvas id="output_canvas"></canvas>
+  <script type="module" src="./Script.js"></script>
 </body>
 </html>
