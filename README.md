@@ -1,9 +1,3 @@
-
-
-Here's a draft for your README file:  
-
----
-
 # Internship Work Repository  
 
 This repository contains the work I completed during my internship. My tasks primarily revolved around building systems and conducting research in AI, frontend development, and skill assessment. Below is an overview of the projects and key accomplishments.  
